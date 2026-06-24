@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WOODE Studio | Contemporary African Minimalist Fashion & Custom Atelier</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover WOODE Studio, a contemporary fashion label by designer Charity Woode. Merging modern minimalist silhouettes with traditional African textile craftsmanship and hand embellishments.">
+  <meta name="keywords" content="WOODE Studio, Charity Woode, fashion designer, contemporary African fashion, African minimalism, custom garments, pattern drafting, Lagos fashion, bespoke atelier">
+  <meta name="author" content="Charity Woode">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://woodestudio.com/">
+  <meta property="og:title" content="WOODE Studio | Contemporary African Minimalist Fashion & Custom Atelier">
+  <meta property="og:description" content="Discover WOODE Studio, a contemporary fashion label by designer Charity Woode. Merging modern minimalist silhouettes with traditional African textile craftsmanship and hand embellishments.">
+  <meta property="og:image" content="images/hero_model.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://woodestudio.com/">
+  <meta property="twitter:title" content="WOODE Studio | Contemporary African Minimalist Fashion & Custom Atelier">
+  <meta property="twitter:description" content="Discover WOODE Studio, a contemporary fashion label by designer Charity Woode. Merging modern minimalist silhouettes with traditional African textile craftsmanship and hand embellishments.">
+  <meta property="twitter:image" content="images/hero_model.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor overlay (for high-end micro-interactions) -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- --- Header / Navigation --- -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <a href="#home" class="brand-logo" id="logo-link">
+        WOODE Studio<span class="dot">.</span>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Manifesto</a></li>
+          <li><a href="#collections" class="nav-link">Collections</a></li>
+          <li><a href="#services" class="nav-link">Atelier</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Inquire</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+          <span class="material-symbols-rounded">dark_mode</span>
+        </button>
+        <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="material-symbols-rounded">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- --- Hero Section --- -->
+    <section class="hero" id="home">
+      <!-- Parallax background text layers -->
+      <div class="parallax-bg-text bg-text-1" data-speed="-0.15">HERITAGE</div>
+      <div class="parallax-bg-text bg-text-2" data-speed="0.2">MINIMAL</div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="hero-tagline">Contemporary African Minimalism</span>
+            <h1 class="hero-title">
+              <span>where style</span>
+              <span class="serif-text">lives</span>
+              <span>now</span>
+            </h1>
+            <p class="hero-description">
+              Explore curated collections and bespoke everyday essentials, thoughtfully designed to combine structural silhouettes with traditional cultural storytelling.
+            </p>
+            <a href="#contact" class="hero-cta">
+              Book Consultation
+              <span class="material-symbols-rounded">arrow_right_alt</span>
+            </a>
+          </div>
+          
+          <div class="hero-media" data-speed="-0.08">
+            <div class="image-mask">
+              <img src="images/hero_model.png" alt="WOODE Studio Contemporary minimalist architectural fashion wear" width="450" height="580">
+            </div>
+            
+            <!-- Rotating interactive sticker Badge -->
+            <div class="floating-badge" id="rotating-badge" aria-hidden="true">
+              <svg viewBox="0 0 100 100">
+                <path id="circlePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="none" />
+                <text fill="#ffffff" font-size="7.5" font-family="'Syne', sans-serif" font-weight="700" letter-spacing="0.12em">
+                  <textPath href="#circlePath">WOODE STUDIO • CRAFTED WITH INTENT • </textPath>
+                </text>
+              </svg>
+              <span class="material-symbols-rounded badge-arrow">north_east</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Slanted Running Text Marquee --- -->
+    <div class="marquee-container" aria-hidden="true">
+      <div class="marquee-content">
+        <div class="marquee-item">
+          <span>Contemporary African Minimalism</span>
+          <span class="material-symbols-rounded icon">join_inner</span>
+        </div>
+        <div class="marquee-item">
+          <span>Crafted with Intent</span>
+          <span class="material-symbols-rounded icon">architecture</span>
+        </div>
+        <div class="marquee-item">
+          <span>Cultural Storytelling</span>
+          <span class="material-symbols-rounded icon">auto_awesome</span>
+        </div>
+        <div class="marquee-item">
+          <span>Textile Innovation</span>
+          <span class="material-symbols-rounded icon">texture</span>
+        </div>
+        <!-- Duplicated for seamless looping -->
+        <div class="marquee-item">
+          <span>Contemporary African Minimalism</span>
+          <span class="material-symbols-rounded icon">join_inner</span>
+        </div>
+        <div class="marquee-item">
+          <span>Crafted with Intent</span>
+          <span class="material-symbols-rounded icon">architecture</span>
+        </div>
+        <div class="marquee-item">
+          <span>Cultural Storytelling</span>
+          <span class="material-symbols-rounded icon">auto_awesome</span>
+        </div>
+        <div class="marquee-item">
+          <span>Textile Innovation</span>
+          <span class="material-symbols-rounded icon">texture</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- --- Brand Manifesto / About Section --- -->
+    <section class="section reveal" id="about">
+      <div class="container">
+        <span class="section-tag">Brand Manifesto</span>
+        <h2 class="section-title">The Art of <span>wearable</span> Storytelling</h2>
+        
+        <div class="manifesto-grid">
+          <blockquote class="manifesto-quote">
+            "We believe fashion should be a bridge between heritage and modern expression. We focus on textile innovation, structural shapes, and meticulous hand details that carry the legacy of African design."
+            <span>— Charity Woode, CEO & Creative Director</span>
+          </blockquote>
+          
+          <div class="manifesto-body">
+            <p>
+              WOODE Studio is an independent design house rooted in contemporary African minimalism. Founded by Charity Woode, our pieces combine modern, clean architectural silhouettes with traditional cultural narratives. 
+            </p>
+            <p>
+              Our design process is deliberate and slow. We reject mass production in favor of small-scale management, custom garment construction, and close collaboration with private clients to bring bespoke concepts to life.
+            </p>
+            <div class="highlight-box">
+              <h4>Core Creative Pillars</h4>
+              <p>Garment finishing with strict attention to durability, textile coordination focusing on hand embellishment, and pattern drafting that emphasizes natural, flattering silhouettes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Collections Section --- -->
+    <section class="section reveal" id="collections">
+      <div class="container">
+        <span class="section-tag">Featured Archives</span>
+        <h2 class="section-title">Minimalism in <span>motion</span></h2>
+        
+        <div class="collections-grid">
+          <div class="collection-featured">
+            <div class="collection-info">
+              <h3>The Zizi Cardow Capsule</h3>
+              <p>
+                An acclaimed 5–10 piece capsule collection exploring contemporary African minimalism. This project integrated traditional culturally inspired design elements with geometric modern drapes.
+              </p>
+              <ul class="bullets-list">
+                <li>
+                  <span class="material-symbols-rounded bullet-icon">check_circle</span>
+                  <span>Detailed structural tailoring & fitting adjustments</span>
+                </li>
+                <li>
+                  <span class="material-symbols-rounded bullet-icon">check_circle</span>
+                  <span>Hand embellishment & custom stitch embroidery</span>
+                </li>
+                <li>
+                  <span class="material-symbols-rounded bullet-icon">check_circle</span>
+                  <span>Editorial lookbook and photoshoots styling direction</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="collection-card">
+              <div class="card-img-wrapper">
+                <img src="images/hero_model.png" alt="Model wearing Zizi Cardow Project Capsule design" width="500" height="520" loading="lazy">
+              </div>
+              <div class="card-overlay">
+                <h3>Zizi Cardow Project</h3>
+                <p>Minimalist African Silhouettes (2016-2017)</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="collection-sidebar">
+            <div class="collection-info">
+              <h3>Bespoke Client Creations</h3>
+              <p>
+                A collection of tailor-made pieces designed for private clients. Every creation represents a translation of individual briefs into original fashion concepts, meticulously crafted from draft to finish.
+              </p>
+            </div>
+            
+            <div class="secondary-grid">
+              <div class="collection-item-small">
+                <div class="thumb-wrapper">
+                  <img src="images/collection_1.png" alt="Close-up of premium hand-embellished details on warm sienna fabric" width="120" height="150" loading="lazy">
+                </div>
+                <div class="item-desc">
+                  <h4>Texture & Detail</h4>
+                  <p>Intricate embroidery coordination and custom detailing. Highlighting the richness of linen and structural cotton.</p>
+                </div>
+              </div>
+              
+              <div class="collection-item-small">
+                <div class="thumb-wrapper">
+                  <img src="images/collection_2.png" alt="Full length lookbook design of structured minimalist African silhouette dress" width="120" height="150" loading="lazy">
+                </div>
+                <div class="item-desc">
+                  <h4>Silhouette & Drape</h4>
+                  <p>Bespoke pattern drafting designed to celebrate geometric structures and modern African elegance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Services / Atelier Section --- -->
+    <section class="section reveal" id="services">
+      <div class="container">
+        <span class="section-tag">Atelier Services</span>
+        <h2 class="section-title">Tailored with <span>meticulous</span> precision</h2>
+        
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <span class="material-symbols-rounded">straighten</span>
+            </div>
+            <h3>Pattern Drafting & Alterations</h3>
+            <p>Developing bespoke garment blueprints from measurements. Perfect structure adjustments, custom fittings, and tailoring adjustments for an immaculate hang.</p>
+          </article>
+          
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <span class="material-symbols-rounded">texture</span>
+            </div>
+            <h3>Textile Coordination</h3>
+            <p>Fabric sourcing, quality assessment, and textile pairing. Coordinating organic weights, structures, and textures aligned with high-fashion aesthetics.</p>
+          </article>
+          
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <span class="material-symbols-rounded">auto_awesome</span>
+            </div>
+            <h3>Hand Embellishment</h3>
+            <p>Personalized embroidery, bead application, and custom craftsmanship detailing. Adding three-dimensional textures and artistic stories to garments.</p>
+          </article>
+          
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <span class="material-symbols-rounded">brush</span>
+            </div>
+            <h3>Styling & Lookbooks</h3>
+            <p>Visual narrative building, editorial styling, and complete portfolio coordination. Styling custom shoots that represent distinct brand identities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Journey / Timeline Section --- -->
+    <section class="section reveal" id="journey">
+      <div class="container">
+        <span class="section-tag">Our History</span>
+        <h2 class="section-title">The Creative <span>journey</span></h2>
+        
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-badge" aria-hidden="true"></div>
+            <div class="timeline-panel">
+              <span class="date">2022 - PRESENT</span>
+              <h3>WOODE Studio</h3>
+              <span class="subtitle">CEO & Creative Director</span>
+              <p>Founded and developed WOODE Studio as an independent fashion label focusing on contemporary minimalist garments. Manage end-to-end collections, private client consultations, fabric selection, and visual storytelling.</p>
+            </div>
+          </div>
+          
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-badge" aria-hidden="true"></div>
+            <div class="timeline-panel">
+              <span class="date">2019 - 2022</span>
+              <h3>MELONI Atelier</h3>
+              <span class="subtitle">Fashion Designer</span>
+              <p>Assisted the core design team in researching international trends, drafting technical illustrations, sourcing materials, and managing studio inventory in Akoka, Yaba, Lagos.</p>
+            </div>
+          </div>
+          
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-badge" aria-hidden="true"></div>
+            <div class="timeline-panel">
+              <span class="date">2015 - 2019</span>
+              <h3>Academic Foundations</h3>
+              <span class="subtitle">University of Cape Coast</span>
+              <p>Obtained Bachelor of Education (Social Science), developing solid sociological insight into cultural aesthetics, alongside structured apprenticeship training at Valisimo Fashion School and OSC College of Fashion.</p>
+            </div>
+          </div>
+          
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-badge" aria-hidden="true"></div>
+            <div class="timeline-panel">
+              <span class="date">RECOGNITIONS</span>
+              <h3>Awards & Targets</h3>
+              <span class="subtitle">Lagos Fashion Week & FADAN</span>
+              <p>Targeting the Emerging Designer Award at Lagos Fashion Week and the Emerging Creative Entrepreneur of the Year by the Fashion Designers Association of Nigeria (FADAN) for innovation in contemporary African minimalism.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Contact & Booking Section --- -->
+    <section class="section reveal" id="contact">
+      <div class="container">
+        <span class="section-tag">Atelier Booking</span>
+        <h2 class="section-title">Inquire for a <span>consultation</span></h2>
+        
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+            <h3>Let's create something timeless.</h3>
+            <p>For custom bridal wear, bespoke evening gowns, capsule styling projects, or wholesale inquiries, contact our atelier. Consultations are available by appointment only.</p>
+            
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <span class="material-symbols-rounded">mail</span>
+                </div>
+                <div class="contact-method-details">
+                  <h4>Email Us</h4>
+                  <p><a href="mailto:creatives@woodestudio.com.ng">creatives@woodestudio.com.ng</a></p>
+                </div>
+              </div>
+              
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <span class="material-symbols-rounded">phone_android</span>
+                </div>
+                <div class="contact-method-details">
+                  <h4>Call Atelier</h4>
+                  <p><a href="tel:07909302529">07909302529</a></p>
+                </div>
+              </div>
+              
+              <div class="contact-method-item">
+                <div class="contact-method-icon">
+                  <span class="material-symbols-rounded">location_on</span>
+                </div>
+                <div class="contact-method-details">
+                  <h4>Atelier Address</h4>
+                  <p>73 Brinckman Street, S70 1JQ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="consultation-form">
+              <div class="form-group">
+                <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                <label for="name" class="form-label">Full Name</label>
+              </div>
+              
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                <label for="email" class="form-label">Email Address</label>
+              </div>
+              
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder=" ">
+                <label for="phone" class="form-label">Phone Number (Optional)</label>
+              </div>
+              
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" class="form-input" placeholder=" " required>
+                <label for="subject" class="form-label">Inquiry Subject</label>
+              </div>
+              
+              <div class="form-group">
+                <textarea id="message" name="message" class="form-input" placeholder=" " required></textarea>
+                <label for="message" class="form-label">Tell us about your project, design requirements or size details...</label>
+              </div>
+              
+              <button type="submit" class="submit-btn" id="submit-btn">
+                Send Request
+              </button>
+              
+              <div class="form-feedback" id="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- Robust Footer --- -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>WOODE Studio<span>.</span></h2>
+          <p>Exploring contemporary African minimalism through structural tailoring and cultural storytelling.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Atelier Sections</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Manifesto</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#services">Atelier Services</a></li>
+            <li><a href="#journey">Journey</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="#services">Pattern Drafting</a></li>
+            <li><a href="#services">Textile Coordination</a></li>
+            <li><a href="#services">Hand Embellishments</a></li>
+            <li><a href="#services">Styling & Lookbooks</a></li>
+            <li><a href="#services">Bespoke Design</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Atelier Hours</h3>
+          <p style="font-size: 0.85rem; opacity: 0.6; margin-bottom: 0.5rem; font-weight: 300;">Monday — Friday: 9:00 AM — 6:00 PM</p>
+          <p style="font-size: 0.85rem; opacity: 0.6; margin-bottom: 0.5rem; font-weight: 300;">Saturday: By Appointment Only</p>
+          <p style="font-size: 0.85rem; opacity: 0.6; margin-bottom: 1.5rem; font-weight: 300;">Sunday: Closed</p>
+          <p style="font-size: 0.85rem; opacity: 0.8; font-weight: 500; color: var(--color-primary);">Consultations are strictly by appointment.</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 WOODE Studio. All rights reserved. Designed by Charity Woode.</p>
+        <div class="social-links">
+          <a href="https://instagram.com" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener">
+            <span class="material-symbols-rounded">share</span>
+          </a>
+          <a href="https://linkedin.com" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <span class="material-symbols-rounded">account_circle</span>
+          </a>
+          <a href="mailto:creatives@woodestudio.com.ng" class="social-icon" aria-label="Email Atelier">
+            <span class="material-symbols-rounded">mail</span>
+          </a>
+          <a href="tel:07909302529" class="social-icon" aria-label="Call Atelier">
+            <span class="material-symbols-rounded">phone</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Logic -->
+  <script src="js/script.js"></script>
+</body>
+</html>
